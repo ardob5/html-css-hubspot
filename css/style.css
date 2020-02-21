@@ -1,0 +1,105 @@
+/* Regole CSS Generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.width-page {
+  margin: 0 250px;
+}
+
+/* Sezione Header */
+header {
+  /* DEBUG */
+  height: 200px;
+  /* END DEBUG */
+  width: 100%;
+}
+
+.login-navbar {
+  /* DEBUG */
+  background-color: yellow;
+  height: 100px;
+  /* END DEBUG */
+  width: 100%;
+}
+
+.menu-navbar {
+  /* DEBUG */
+  background-color: green;
+  height: 100px;
+  /* END DEBUG */
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+
+header ul {
+  list-style: none;
+}
+
+/* SEZIONE MAIN */
+
+/* SECTION JAMBOTRON */
+
+.jambotron {
+  /* DEBUG */
+  background-color: red;
+  height: 600px;
+  /* END DEBUG */
+}
+
+/* SECTION CUBE */
+.cube {
+    /* DEBUG */
+    background-color: blue;
+    height: 400px;
+    /* END DEBUG */
+}
+
+/* SECTION */
+.freehubspot {
+  /* DEBUG */
+  background-color: pink;
+  height: 400px;
+  /* END DEBUG */
+}
+
+/* SECTION Threecolumns */
+.threecolumns {
+    /* DEBUG */
+    background-color: purple;
+    height: 400px;
+    /* END DEBUG */
+}
+
+/* SECTION COMMUNITY */
+.community {
+  /* DEBUG */
+  background-color: yellow;
+  height: 400px;
+  /* END DEBUG */
+}
+
+/* SECTION AFFILIATES */
+.affiliates {
+  /* DEBUG */
+  background-color: lightblue;
+  height: 400px;
+  /* END DEBUG */
+}
+
+
+
+
+/* FOOTER */
+footer {
+  /* DEBUG */
+  background-color: grey;
+  height: 600px;
+  /* END DEBUG */
+}
