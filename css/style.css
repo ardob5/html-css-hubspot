@@ -10,36 +10,126 @@ body {
 }
 
 .width-page {
-  margin: 0 250px;
+  margin: 0 15%;
 }
 
 /* Sezione Header */
 header {
-  /* DEBUG */
-  height: 200px;
-  /* END DEBUG */
   width: 100%;
 }
 
-.login-navbar {
-  /* DEBUG */
-  background-color: yellow;
-  height: 100px;
-  /* END DEBUG */
+header ul, header li{
+  list-style: none;
+  display: inline-block;
+  text-align: right;
+}
+
+.mid-navbar {
+  padding: 20px 0;
   width: 100%;
+}
+
+.mid-navbar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.login-navbar {
+  background-color: #f5f8fa;
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #cbd6e2;
+  position: fixed;
+}
+
+.login-navbar a {
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0 5px;
+  display: inline-block;
+  color: #33475b;
+}
+
+.right-login {
+  float: right;
+}
+
+#globe {
+  font-size: 20px;
+}
+
+#lang {
+  padding-right: 10px;
+  border-right: 2px solid #cbd6e2;
+}
+
+#login {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1.2px solid #ff7a59;
+  color: #ff7a59;
+  padding: 10px 20px;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#freespot {
+  background-color: #ff7a59;
+  border-radius: 8px;
+  border: 1.2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+#login, #freespot:hover {
+ cursor: pointer;
+}
+
+#search {
+  color: lightblue;
+  font-size: 1.1em;
 }
 
 .menu-navbar {
   /* DEBUG */
-  background-color: green;
-  height: 100px;
   /* END DEBUG */
+  padding-top: 80px;
+  background-color: #fff;
   width: 100%;
   border-bottom: 1px solid grey;
 }
 
-header ul {
-  list-style: none;
+.menu-navbar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.menu-navbar img {
+  float: left;
+}
+
+.menu-navbar a {
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-left: 50px;
+  display: inline-block;
+  color: #33475b;
+}
+
+.menu-navbar ul {
+  float: right;
+}
+
+.mid-navbar img {
+  width: 90px;
+  height: auto;
 }
 
 /* SEZIONE MAIN */
