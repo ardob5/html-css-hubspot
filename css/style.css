@@ -96,22 +96,16 @@ header ul, header li{
 }
 
 .menu-navbar {
-  /* DEBUG */
-  /* END DEBUG */
   padding-top: 80px;
   background-color: #fff;
   width: 100%;
   border-bottom: 1px solid grey;
 }
 
-.menu-navbar::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .menu-navbar img {
   float: left;
+  width: 90px;
+  height: auto;
 }
 
 .menu-navbar a {
@@ -126,22 +120,59 @@ header ul, header li{
 .menu-navbar ul {
   float: right;
 }
-
-.mid-navbar img {
-  width: 90px;
-  height: auto;
-}
-
 /* SEZIONE MAIN */
 
-/* SECTION JAMBOTRON */
+/* SECTION JUMBOTRON */
 
-.jambotron {
-  /* DEBUG */
-  background-color: red;
-  height: 600px;
-  /* END DEBUG */
+.jumbotron {
+  background-image: url("../img/jumbotron.png");
+  background-size: cover;
+  width: 100%;
+  height: 740px;
 }
+
+.jumbotron::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  margin: 40px 0;
+  font-size: 2.6em;
+  color: #33475b;
+  width: 100%;
+}
+
+.home {
+  width: 50%;
+  padding: 50px 0;
+  float: left;
+}
+
+#freespot-jumbo {
+  background-color: #ff7a59;
+  border-radius: 10px;
+  border: 1.2px solid #fff;
+  color: #fff;
+  padding: 20px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.jumbotron p {
+  margin: 20px 0;
+  color: #33455B;
+  letter-spacing: 2px;
+  margin-right: 25%;
+}
+
+.small-paragraph {
+  font-size: 10px;
+}
+
 
 /* SECTION CUBE */
 .cube {
@@ -151,7 +182,7 @@ header ul, header li{
     /* END DEBUG */
 }
 
-/* SECTION */
+/* SECTION FREEHUBSPOT */
 .freehubspot {
   /* DEBUG */
   background-color: pink;
