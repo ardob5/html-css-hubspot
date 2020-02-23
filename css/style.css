@@ -9,6 +9,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .width-page {
   margin: 0 15%;
 }
@@ -182,7 +186,7 @@ h1 {
 }
 
 .mid-cube h2 {
-  font-size: 1.8em;
+  font-size: 2em;
 }
 
 .mid-cube p {
@@ -196,10 +200,83 @@ h1 {
 
 /* SECTION FREEHUBSPOT */
 .freehubspot {
-  /* DEBUG */
-  background-color: pink;
+  background-color: #f5f8fa;
+    /* END DEBUG */
   height: 400px;
-  /* END DEBUG */
+}
+
+.mid-freehubspot {
+  background-color: #FFF;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.mid-freehubspot::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left-freehub {
+  text-align: center;
+  padding: 40px 10px;
+  float: left;
+  width: 30%;
+}
+
+.left-freehub img {
+  height: 150px;
+  width: auto;
+}
+
+.freeCRM {
+  padding: 10px;
+  margin-top: 10px;
+}
+.freeCRM a {
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ff7a59;
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px 10px;
+}
+
+.right-freehub {
+  padding: 40px 10px;
+  float: right;
+  width: 70%;
+}
+
+.right-freehub li {
+ list-style: none;
+ display: inline-block;
+ font-weight: bold;
+ font-size: 12px;
+}
+
+.right-freehub h4 {
+  font-size: 1.4em;
+}
+
+.right-freehub p {
+  padding: 20px 0;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.bold-paragraph {
+  font-weight: bold;
+}
+
+.visto {
+  font-weight: bold;
+  background-color: #ff7a59;
+  border-radius: 10px;
+  color: #fff;
+  padding: 3px;
+  margin: 0 4px;
 }
 
 /* SECTION Threecolumns */
