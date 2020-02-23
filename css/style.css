@@ -176,10 +176,22 @@ h1 {
 
 /* SECTION CUBE */
 .cube {
-    /* DEBUG */
-    background-color: blue;
-    height: 400px;
-    /* END DEBUG */
+  padding: 100px 0 50px;
+  background-color: #f5f8fa;
+  text-align: center;
+}
+
+.mid-cube h2 {
+  font-size: 1.8em;
+}
+
+.mid-cube p {
+  margin-top: 20px;
+}
+
+.mid-cube img {
+  height: 260px;
+  width: auto;
 }
 
 /* SECTION FREEHUBSPOT */
