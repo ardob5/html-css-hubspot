@@ -28,6 +28,10 @@ header ul, header li{
   text-align: right;
 }
 
+ul {
+  list-style: none;
+}
+
 .mid-navbar {
   padding: 20px 0;
   width: 100%;
@@ -201,8 +205,7 @@ h1 {
 /* SECTION FREEHUBSPOT */
 .freehubspot {
   background-color: #f5f8fa;
-    /* END DEBUG */
-  height: 400px;
+  padding-bottom: 50px;
 }
 
 .mid-freehubspot {
@@ -233,6 +236,7 @@ h1 {
   padding: 10px;
   margin-top: 10px;
 }
+
 .freeCRM a {
   font-size: 1em;
   font-weight: bold;
@@ -281,10 +285,70 @@ h1 {
 
 /* SECTION Threecolumns */
 .threecolumns {
-    /* DEBUG */
-    background-color: purple;
-    height: 400px;
-    /* END DEBUG */
+  background-color: #f5f8fa;
+  padding-bottom: 50px;
+}
+
+.home-threecolumns::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.home-threecolumns img {
+  height: 150px;
+  width: auto;
+}
+
+.left-col, .mid-col, .right-col {
+  background-color: #FFF;
+  border-radius: 6px;
+  padding: 35px;
+  float: left;
+  text-align: center;
+  width: 30%;
+}
+
+.mid-col {
+  margin: 0 53px;
+}
+
+.home-threecolumns p {
+  padding: 15px 0;
+}
+
+.home-threecolumns h4 {
+  font-size: 1.4em;
+}
+
+.home-threecolumns li {
+  text-align: left;
+  list-style: none;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 15px 0;
+}
+
+.home-threecolumns ul {
+  margin-bottom: 35px;
+}
+
+.border-paragraph {
+  border-top: 1px solid lightgrey;
+}
+
+.home-threecolumns a {
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ff7a59;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+.fixing-margin {
+  margin-bottom: 20px;
 }
 
 /* SECTION COMMUNITY */
